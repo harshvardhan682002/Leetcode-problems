@@ -14,3 +14,10 @@ class Solution(object):
                 res += roman[s[i]]
                 
         return res
+sol = Solution()
+s = "III"
+print(sol.romanToInt(s))
+s = "LVIII"
+print(sol.romanToInt(s))
+s = "MCMXCIV"
+print(sol.romanToInt(s))
